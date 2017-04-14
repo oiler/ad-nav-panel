@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Calibre-Regular';
+    src: url('http://br-assets.imgix.net/content/fonts/CalibreWeb-Regular.woff2') format('woff2'), url('http://br-assets.imgix.net/content/fonts/CalibreWeb-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Calibre-Semibold';
+    src: url('http://br-assets.imgix.net/content/fonts/CalibreWeb-Semibold.woff2') format('woff2'), url('http://br-assets.imgix.net/content/fonts/CalibreWeb-Semibold.woff') format('woff');
+}
+
+.brcom-nav-ad {
+    height: 200px;
+    width: 320px;
+}
+
+.brcom-nav-ad__header {
+    color: #202020;
+    font-family: 'Calibre-Semibold';
+    font-size: 18px;
+    margin: 0 0 27px;
+}
+
+.brcom-nav-ad__list {
+    font-family: 'Calibre-Regular';
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.brcom-nav-ad__list > li {
+    padding: 4px 0;
+}
+
+.brcom-nav-ad__list-item {
+    color: #202020;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 250ms ease-in;
+}
+
+.brcom-nav-ad__list-item:hover {
+    color: #3139f2;
+}
+
+.brcom-nav-ad__svg {
+    width: 150px
+}
